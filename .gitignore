@@ -1,0 +1,5 @@
+~*.xlsm
+*.suo
+/Fluor
+/_site
+/_theme_packages
