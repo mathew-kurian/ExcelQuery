@@ -227,7 +227,7 @@ footer {
   }
 
   header a small {
-    display:inline;
+    display: none;
   }
 
   header ul {
