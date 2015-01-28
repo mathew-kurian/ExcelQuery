@@ -5,30 +5,18 @@ tagline: Supporting tagline
 ---
 {% include JB/setup %}
 
-### Welcome to GitHub Pages.
+## Welcome to the ExcelQuery Tutorials
 
-This automatic page generator is the easiest way to create beautiful pages for all of your projects. Author your page content here using GitHub Flavored Markdown, select a template crafted by a designer, and publish. After your page is generated, you can check out the new branch:
+The tutorial will start with some basic VBA concepts and then introduce ExcelQuery. After the essential queries are covered more complex algorithms will be discussed. The tutorial will be detailed in order to ensure all questions are answered. If you still have any questions, feel free to shoot me an [email](mailto:bluejamesbond@gmail.com).
 
-### Update Author Attributes
+## VBA Introduction
 
-In `_config.yml` remember to specify your own data:
+VBA is a programming language used to access the document models of an Excel workbook. VBA applications running on Excel will have access to the sheets, range, and cells of your file(s). Applications can also access system files such as your documents, files, music, etc. So in essence, VBA is capable of doing a wide variety of things.
 
-```vb.net
-Public Sub SummarizePDN()
-    ' Required
-    Dim Excel As Query: Set Excel = ImportExcelQuery
-    Dim Worksheets As QueryBook: Set Worksheets = Excel.Workbook
-    ' Set Constants
-    UpdateConstants
-    ' Get the search area
-End Sub
-```
+### Modules
 
-The theme should reference these variables whenever needed.
-
-### To-Do
-
-This theme is still unfinished. If you'd like to be added as a contributor, [please fork](http://github.com/plusjade/jekyll-bootstrap)!
-We need to clean up the themes, make theme usage guides with theme-specific markup examples.
-
-
+<ul class="posts">
+  {% for post in site.posts %}
+    <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ BASE_PATH }}{{ post.url }}">{{ post.title }}</a></li>
+  {% endfor %}
+</ul>
