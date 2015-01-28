@@ -8,7 +8,7 @@ title: Functions
 
 ## Functions
 
-Functions provide a simple way to modularize algorithms. Say we have two integers, `x` and `y` and we want to find the minimum of these numbers. And lets say we have to use this algorithm with three (3) sets of numbers. The subsequent sections focus on finding the miniminum between two numbers. The first section will focus on a copy-paste sort of solution; however the second section will focus on modularizing it using functions.
+Functions provide a simple way to modularize algorithms. Say we have two (2) integers, `x` and `y` and we want to find the minimum number. And lets say we have to use this algorithm with three (3) sets of numbers. The subsequent sections focus on finding the miniminum between two numbers. The first section will focus on a copy-paste sort of solution; however the second section will focus on modularizing it using functions.
 
 ### Without Functions
 
