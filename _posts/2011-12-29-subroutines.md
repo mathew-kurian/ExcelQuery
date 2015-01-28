@@ -1,12 +1,11 @@
 ---
-layout: post
-category : lessons
+layout: page
+category : basics
+title: Subroutines
 ---
 {% include JB/setup %}
 
-## Subroutine and Functions
-
-### Subroutine
+## Subroutines
 
 Subroutines are essentially sections of code and allow you to modularize certain functions. Consider the code below which shows two functions: `PrintHello()` and `PrintCat()`. The former only prints out `Hello World!` and the latter prints out `Cat`. Now we can choose which one we want to run.
 
@@ -34,7 +33,7 @@ Hello World!
 Cat
 ```
 
-> #### Tip
+> ### Tip
 > You can run `PrintCat()` from `PrintHello()` by doing the following.
 
 > ```vb.net
@@ -50,5 +49,3 @@ Cat
 > Hello World!
 > Cat
 > ```
-
-### Functions

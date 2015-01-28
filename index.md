@@ -9,14 +9,14 @@ tagline: Supporting tagline
 
 The tutorial will start with some basic VBA concepts and then introduce ExcelQuery. After the essential queries are covered more complex algorithms will be discussed. The tutorial will be detailed in order to ensure all questions are answered. If you still have any questions, feel free to shoot me an [email](mailto:bluejamesbond@gmail.com).
 
-## VBA Introduction
+## What is VBA?
 
 VBA is a programming language used to access the document models of an Excel workbook. VBA applications running on Excel will have access to the sheets, range, and cells of your file(s). Applications can also access system files such as your documents, files, music, etc. So in essence, VBA is capable of doing a wide variety of things.
 
-### Modules
+### Table of Contents
 
-<ul class="posts">
+<div class="posts">
   {% for post in site.posts %}
-    <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ BASE_PATH }}{{ post.url }}">{{ post.title }}</a></li>
+    <a href="{{ BASE_PATH }}{{ post.url }}">{{ post.title }}</a></br>
   {% endfor %}
-</ul>
+</div>
