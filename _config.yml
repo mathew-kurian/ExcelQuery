@@ -12,12 +12,15 @@ include: ['_pages']
 # Themes are encouraged to use these universal variables
 # so be sure to set them if your theme uses them.
 #
+baseurl: "/ExcelQuery/"
+home: "/ExcelQuery"
 title : ExcelQuery
 tagline: Excel scripting made easy
 author :
   name : Mathew Kurian
   email : blah@email.test
   github : bluejamesbond
+  github-repo: ExcelQuery
   twitter : username
   feedburner : feedname
 
@@ -29,7 +32,7 @@ author :
 # Else if you are pushing to username.github.io, replace with your username.
 # Finally if you are pushing to a GitHub project page, include the project name at the end.
 #
-production_url : https://github.com/bluejamesbond/ExcelQuery
+production_url : bluejamesbond.github.io/ExcelQuery
 
 # All Jekyll-Bootstrap specific configurations are namespaced into this hash
 #

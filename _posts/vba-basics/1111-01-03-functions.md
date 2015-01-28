@@ -127,7 +127,7 @@ The first line of a function is called a function signature. It is used to ident
 |  **Min** | You need to provide a function some name. In this case, we named it `Min`. You can name it whatever you want. Just remember the name you give it is what you will be calling it when you want to use it. |
 | **(** | Required by VBA Language standards |
 | **firstValue** | This is considered a parameter. It is something that someone might give you. Functions are like little machines, you give it something and it will do something. In our case it is one (1) of the two (2) numbers that are required. |
-| **As Integer** | The parameter we need should be a number of some sort. So, we can tell VBA that we want the input to be just that. Say for instance, we don't provide the type of input, then a user can give as any [type](/basics/data-types) of data. By marking as `Integer`, we enforce the type. |
+| **As Integer** | The parameter we need should be a number of some sort. So, we can tell VBA that we want the input to be just that. Say for instance, we don't provide the type of input, then a user can give as any [type]({{ site.home }}/vba-basics/data-types) of data. By marking as `Integer`, we enforce the type. |
 | **,** | Comma to separerate the parameters. |
 | **secondValue** | The is second value that will be give to us. For our `Min` function we will do a comparison between the `firstValue` and the `secondValue`. You can give these parameters any name you want, I just named them based on their order. |
 | **As Integer** | Refer to the last `As Integer` |

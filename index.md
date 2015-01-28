@@ -21,6 +21,6 @@ The following sections will delve deeper into the topics
 
 <div class="posts">
   {% for post in site.categories.vba-basics reversed %}
-    <a href="{{ BASE_PATH }}{{ post.url }}">{{ post.title }}</a></br>
+    <a href="{{ site.home }}{{ post.url }}">{{ post.title }}</a></br>
   {% endfor %}
 </div>
