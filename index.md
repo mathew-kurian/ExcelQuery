@@ -13,13 +13,14 @@ This automatic page generator is the easiest way to create beautiful pages for a
 
 In `_config.yml` remember to specify your own data:
 
-{% highlight vb %}
-Private Sub UpdateConstants()
-    PDN_SEARCH_RANGE = "Y2:AI5"
-    PDN_WORKSHEET_NAME = "PDN"
-    ENGR_WORKSHEET_NAME = "Engr"
-    LOOKUP_WORKSHEET_NAME = "Lookup"
-    OUTPUT_WORKSHEET_NAME = "Summaria2"
+{% highlight vb.net %}
+Public Sub SummarizePDN()
+    ' Required
+    Dim Excel As Query: Set Excel = ImportExcelQuery
+    Dim Worksheets As QueryBook: Set Worksheets = Excel.Workbook
+    ' Set Constants
+    UpdateConstants
+    ' Get the search area
 End Sub
 {% endhighlight %}
 

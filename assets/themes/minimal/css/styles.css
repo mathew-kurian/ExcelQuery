@@ -7,6 +7,26 @@ body {
   font-weight:400;
 }
 
+.highlight .ow {
+  font-weight: normal !important;
+  color: rgb(37, 171, 170) !important;
+}
+
+.highlight .nf {
+  color: #EA610F !important;
+  font-weight: normal !important;
+}
+
+.highlight .k {
+  font-weight: normal !important;
+  color: rgb(37, 171, 170)  !important;
+}
+
+.highlight .c {
+  color: #999988 !important;
+  font-style: normal !important;
+}
+
 h1, h2, h3, h4, h5, h6 {
   color:#222;
   margin:0 0 20px;
