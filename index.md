@@ -20,7 +20,7 @@ The following sections will delve deeper into the topics
 ### Basics
 
 <div class="posts">
-  {% for post in site.categories.basics reversed %}
+  {% for post in site.categories.vba-basics reversed %}
     <a href="{{ BASE_PATH }}{{ post.url }}">{{ post.title }}</a></br>
   {% endfor %}
 </div>

@@ -1,6 +1,6 @@
 ---
 layout: page
-categories : basics
+categories : vba-basics
 index: 2
 title: Subroutines versus functions
 ---

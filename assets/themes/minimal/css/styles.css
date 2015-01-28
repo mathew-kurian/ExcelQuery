@@ -79,8 +79,11 @@ blockquote {
 
 code, pre {
   font-family:Monaco, Bitstream Vera Sans Mono, Lucida Console, Terminal;
-  color:#333;
   font-size:11px;
+}
+
+:not(a) > code, :not(a) > pre {
+  color:#333;
 }
 
 pre {
@@ -160,7 +163,7 @@ header ul a {
 }
 
 strong {
-  color:#222;
+  color: #393939;
   font-weight:700;
 }
 
@@ -283,5 +286,8 @@ p code, table code {
   background: #f8f8f8;
   border-radius: 3px;
   border: 1px solid #e5e5e5;
+}
+
+p :not(a) code, table :not(a) code {
   color: #999;
 }
