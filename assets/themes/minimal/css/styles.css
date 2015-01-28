@@ -278,7 +278,7 @@ footer {
 blockquote strong {
     color: #676767;
 }
-p code {
+p code, table code {
   padding: 1px 3px;
   background: #f8f8f8;
   border-radius: 3px;
