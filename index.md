@@ -17,10 +17,12 @@ VBA is a programming language used to access the document models of an Excel wor
 
 The following sections will delve deeper into the topics
 
-### Basics
+### VBA Basics
 
 <div class="posts">
   {% for post in site.categories.vba-basics reversed %}
     <a href="{{ site.home }}{{ post.url }}">{{ post.title }}</a></br>
   {% endfor %}
 </div>
+
+### ExcelQuery Basics
