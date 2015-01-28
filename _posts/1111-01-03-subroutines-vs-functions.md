@@ -1,8 +1,8 @@
 ---
 layout: page
-categories : basics functions
+categories : basics
 index: 2
-title: Functions
+title: Subroutines versus functions
 ---
 {% include JB/setup %}
 

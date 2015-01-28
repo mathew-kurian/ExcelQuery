@@ -1,14 +1,14 @@
 ---
 layout: page
-categories : basics subroutines
-index: 3
-title: Subroutines
+categories : basics
+index: 2
+title: Functions
 ---
 {% include JB/setup %}
 
-## Subroutines
+## Functions
 
-Subroutines are essentially sections that help modularize lines of code. Consider the code below which shows two subroutines: `PrintHello()` and `PrintCat()`. The former only prints out `Hello World!` and the latter prints out `Cat`. Now we can choose which one we want to run.
+Functions are essentially sections of code and allow you to modularize certain functions. Consider the code below which shows two functions: `PrintHello()` and `PrintCat()`. The former only prints out `Hello World!` and the latter prints out `Cat`. Now we can choose which one we want to run.
 
 ```vb.net
 ' Prints only Hello World

@@ -13,10 +13,14 @@ The tutorial will start with some basic VBA concepts and then introduce ExcelQue
 
 VBA is a programming language used to access the document models of an Excel workbook. VBA applications running on Excel will have access to the sheets, range, and cells of your file(s). Applications can also access system files such as your documents, files, music, etc. So in essence, VBA is capable of doing a wide variety of things.
 
-### Contents
+## Contents
+
+The following sections will delve deeper into the topics
+
+### Basics
 
 <div class="posts">
-  {% for post in site.posts %}
+  {% for post in site.categories.basics reversed %}
     <a href="{{ BASE_PATH }}{{ post.url }}">{{ post.title }}</a></br>
   {% endfor %}
 </div>
