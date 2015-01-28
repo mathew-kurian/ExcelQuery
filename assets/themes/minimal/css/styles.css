@@ -2,7 +2,7 @@
 
 body {
   padding:50px;
-  font: 13px/1.5 "Noto Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font: 13px/1.56 "Noto Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
   color: #999;
   font-weight:400;
 }
@@ -276,4 +276,11 @@ footer {
 
 blockquote strong {
     color: #676767;
+}
+p code {
+  padding: 1px 3px;
+  background: #f8f8f8;
+  border-radius: 3px;
+  border: 1px solid #e5e5e5;
+  color: #AAA;
 }

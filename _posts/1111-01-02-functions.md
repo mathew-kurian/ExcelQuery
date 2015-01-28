@@ -8,7 +8,7 @@ title: Functions
 
 ## Functions
 
-Functions are essentially sections of code and allow you to modularize certain functions. Consider the code below which shows two functions: `PrintHello()` and `PrintCat()`. The former only prints out `Hello World!` and the latter prints out `Cat`. Now we can choose which one we want to run.
+Functions are the workers of the
 
 ```vb.net
 ' Prints only Hello World
