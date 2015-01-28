@@ -291,3 +291,7 @@ p code, table code {
 p :not(a) code, table :not(a) code {
   color: #999;
 }
+
+.posts {
+  margin-bottom: 20px;
+}
