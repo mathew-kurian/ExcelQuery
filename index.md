@@ -13,13 +13,15 @@ This automatic page generator is the easiest way to create beautiful pages for a
 
 In `_config.yml` remember to specify your own data:
 
-    title : My Blog =)
-
-    author :
-      name : Name Lastname
-      email : blah@email.test
-      github : username
-      twitter : username
+{% highlight vb %}
+Private Sub UpdateConstants()
+    PDN_SEARCH_RANGE = "Y2:AI5"
+    PDN_WORKSHEET_NAME = "PDN"
+    ENGR_WORKSHEET_NAME = "Engr"
+    LOOKUP_WORKSHEET_NAME = "Lookup"
+    OUTPUT_WORKSHEET_NAME = "Summaria2"
+End Sub
+{% endhighlight %}
 
 The theme should reference these variables whenever needed.
 
