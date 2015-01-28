@@ -108,7 +108,8 @@ dt {
 }
 
 th {
-  color:#444;
+  font-weight: normal;
+  vertical-align: top;
 }
 
 img {

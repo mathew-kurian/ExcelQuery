@@ -5,7 +5,8 @@ permalink: /:categories/:title/
 exclude: [".rvmrc", ".rbenv-version", "README.md", "Rakefile", "changelog.md"]
 markdown: redcarpet
 highlighter: pygments
-extensions: [fenced_code_blocks]
+redcarpet:
+  extensions: ["no_intra_emphasis", "fenced_code_blocks", "autolink", "tables", "with_toc_data"]
 include: ['_pages']
 
 # Themes are encouraged to use these universal variables
