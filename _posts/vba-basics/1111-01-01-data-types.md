@@ -23,3 +23,10 @@ VBA developers can choose to declare the type of data that is being being used w
 |------------:|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 |    **Long** | Long represents _whole numbers_ between `-2,147,483,648` and `2,147,483,647`. Longs support much larger numbers than the aforementioned Integers so they use up more memory on the computer and tend to be slower. |
 | **Variant** | Variants are tricky. For now, just know that they exist. I will discuss this  as you progress in the tutorial.                                                                                                     |
+
+### Complex Data Types
+
+These data types are composed of a group of the primitive data types explained above. One of the most important complex data type is defined below. There are several more complex data types which I have not mentioned. i will introduce them to you later in the tutorial.
+
+| `Collections` | Collections represent a list of data-types. An example of a collection is `[ 1, "data", 1.2, "34" ]`. The important thing is that order does matter. So the element at index 1 in this case is `1` and the element at index 2 is `"data"` an so on. You can usually get the length of the Collection which at times is proves to be very useful.  |
+|--------------:|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
