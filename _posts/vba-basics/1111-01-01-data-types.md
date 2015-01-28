@@ -14,7 +14,7 @@ VBA developers can choose to declare the type of data that is being being used w
 
 |  **String** | String represents a _string of characters_ or text. Strings are usually initialized with quotes i.e. `"this is a string of data"`. It is also important note that an empty String is defined as `""`. |
 |------------:|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-|  **Double** | Double represents a _decimal number_. They can also be __whole numbers_. Numbers such as -1.11, 0, 9.4, 5, 10, and even 10000000 are considered as doubles.                                                                                |
+|  **Double** | Double represents a _decimal number_. They can also be __whole numbers_. Numbers such as `-1.11`, `0`, `9.4`, `5`, `10`, and even `10000000` are considered as doubles.                                                                                |
 | **Boolean** | Booleans are represent truth values namely `true` or `false`. Booleans can only be in one state at a time and they only have two total states.                                                        |
 
 ### Secondary Primitive Data Types
