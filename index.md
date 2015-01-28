@@ -13,7 +13,7 @@ This automatic page generator is the easiest way to create beautiful pages for a
 
 In `_config.yml` remember to specify your own data:
 
-{% highlight vb.net %}
+```vb.net
 Public Sub SummarizePDN()
     ' Required
     Dim Excel As Query: Set Excel = ImportExcelQuery
@@ -22,7 +22,7 @@ Public Sub SummarizePDN()
     UpdateConstants
     ' Get the search area
 End Sub
-{% endhighlight %}
+```
 
 The theme should reference these variables whenever needed.
 
