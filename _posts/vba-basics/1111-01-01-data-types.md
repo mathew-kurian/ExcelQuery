@@ -6,7 +6,7 @@ title: Data Types
 ---
 {% include JB/setup %}
 
-## Data Types
+## General VBA Data Types
 
 VBA developers can choose to declare the type of data that is being being used whether in a [`Dim`]({{ site.home }}/vba-basics/dim) or paramters to a [`Function`]({{ site.home }}/vba-basics/functions). Variables are declared to be a certain type using the `As` keyword. It ensures that the data will be of a certain type.
 

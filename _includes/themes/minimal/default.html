@@ -35,7 +35,9 @@
         </div>
        <h4>ExcelQuery Basics</h4>
         <div class="posts">
-        Coming soon...
+          {% for post in site.categories.eq-basics reversed %}
+            <a href="{{ site.home }}{{ post.url }}">{{ post.title }}</a></br>
+          {% endfor %}
         </div>
       </header>
       <section>
