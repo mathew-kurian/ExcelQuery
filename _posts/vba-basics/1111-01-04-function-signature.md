@@ -22,8 +22,7 @@ End Function
 The first line of a function is called a function signature (as shown below). It is used to identify the name of the function itself and the input and output data. Let's break it down and understand each component seperately.
 
 ```vb.net
-Private Function Min(firstValue As Integer, 
-                 secondValue As Integer) As Integer
+Private Function Min(firstValue As Integer, secondValue As Integer) As Integer
 ```
 
 ### The Breakdown
@@ -46,15 +45,13 @@ Private Function Min(firstValue As Integer,
 I am guessing you have been doing Excel before and you are here to improve your knowledge which is admirable. So you must have heard of something called `VLOOKUP`. You called `VLOOKUP` a formula, but what you might not have known is that `VLOOKUP` is actually a function but Microsoft decided to simplify the terminology from function to formula (as in "math formula"). The `VLOOKUP` function signature is as follows:
 
 ```vb.net
-Public Function VLOOKUP(lookup_value As Range, table_array As Range, 
-                col_index_num As Range, range_lookup As Variant)
+Public Function VLOOKUP(lookup_value As Range, table_array As Range, col_index_num As Range, range_lookup As Variant)
 ```
 
 As you can see there is a striking similarity to the `Min` function/formula you just wrote.
 
 ```vb.net
-Private Function Min(firstValue As Integer, 
-                 secondValue As Integer) As Integer
+Private Function Min(firstValue As Integer, secondValue As Integer) As Integer
 ```
 
 > ### Question
