@@ -27,6 +27,16 @@
           <li><a href="{{ site.author.github-repo }}/tarball/master">Download <strong>TAR Ball</strong></a></li>
           <li><a href="{{ site.author.github-repo }}">View On <strong>GitHub</strong></a></li>
         </ul>
+       <h4>VBA Basics</h4>
+        <div class="posts">
+          {% for post in site.categories.vba-basics reversed %}
+            <a href="{{ site.home }}{{ post.url }}">{{ post.title }}</a></br>
+          {% endfor %}
+        </div>
+       <h4>ExcelQuery Basics</h4>
+        <div class="posts">
+        Coming soon...
+        </div>
       </header>
       <section>
         {{ content }}

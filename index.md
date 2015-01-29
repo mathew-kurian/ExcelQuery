@@ -16,14 +16,6 @@ VBA is a programming language used to access the document models of an Excel wor
 > ### Did you know?
 > Microsoft Excel and VBA itself are actually built using a much more powerful language called C++. The C++ programming language provides developers with tools that enable them to reduce the memory consumption and increase performance. However, such performance is rarely required when programming directly with Excel sheets, ranges, and cells which is why Microsoft opted to expose a simpler language (VBA) to Excel Developers.
 
-### VBA Basics
-
-<div class="posts">
-  {% for post in site.categories.vba-basics reversed %}
-    <a href="{{ site.home }}{{ post.url }}">{{ post.title }}</a></br>
-  {% endfor %}
-</div>
-
 ## What is ExcelQuery
 
 ExcelQuery is a programming library (and framework) which is built on top of VBA. ExcelQuery contains frequent algorithms that VBA developers use. It also implements a way to spot and identify your coding errors. This feature makes coding easier for beginners. ExcelQuery wants developers to *write less and do more.*
@@ -53,9 +45,4 @@ Q.Workbook _
  .Update(100)                    ' Update value to 100
 ```
 > You can learn more about JQuery [here](http://jquery.com/).
-
-### ExcelQuery Basics
-
-Coming soon
-
 
