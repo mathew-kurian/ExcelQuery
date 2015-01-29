@@ -21,7 +21,7 @@ VBA is a programming language used to access the document models of an Excel wor
 ExcelQuery is a programming library (and framework) which is built on top of VBA. ExcelQuery contains frequent algorithms that VBA developers use. It also implements a way to spot and identify your coding errors. This feature makes coding easier for beginners. ExcelQuery wants developers to *write less and do more.*
 
 > ### Fun Fact
-> ExcelQuery is actually based off JQuery, a library for working with web applications (like this website). In the examples below, we are performing similar tasks but one is with JQuery while the other with ExcelQuery. Can you follow the both pieces of code?
+> ExcelQuery is actually based off JQuery, a library for working with web applications (like this website). In the examples below, we are performing similar tasks but one is with JQuery while the other with ExcelQuery. Can you understand the both pieces of code?
 > #### JQuery
 > ```js
 // Please note that the code below is simplified
@@ -41,7 +41,7 @@ Q.Workbook _
  .SelectNotEmpty _
  .Eq(1) _                        ' Select the first one
  .Foreground(Excel.Color.RED) _  ' Set text color to red
- .Foreground(Excel.Color.BLUE) _ ' Set background to red
+ .Background(Excel.Color.BLUE) _ ' Set background to red
  .Update(100)                    ' Update value to 100
 ```
 > You can learn more about JQuery [here](http://jquery.com/).
