@@ -43,9 +43,9 @@ Public Sub GetMinOfThreeSets()
     End If
 
     ' Compare third set of numbers
-    If x2 < y2 Then
-        Debug.Print x2
-    Else: Debug.Print y2
+    If x3 < y3 Then
+        Debug.Print x3
+    Else: Debug.Print y3
     End If
 
 End Sub
