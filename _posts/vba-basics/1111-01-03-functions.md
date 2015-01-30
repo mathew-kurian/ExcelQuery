@@ -83,17 +83,17 @@ Public Sub GetMinOfThreeSets()
     Dim x3 As Integer : x3 = 7
     Dim y3 As Integer : x3 = 7
 
-    Debug.Print Min(x1, y1)
-    Debug.Print Min(x2, y2)
-    Debug.Print Min(x3, y3)
+    Debug.Print MyMinFunction(x1, y1)
+    Debug.Print MyMinFunction(x2, y2)
+    Debug.Print MyMinFunction(x3, y3)
 
 End Sub
 
 ' Function which simpifies it for us
-Private Function Min(firstValue As Integer, secondValue As Integer) As Integer
+Private Function MyMinFunction(firstValue As Integer, secondValue As Integer) As Integer
     If firstValue < secondValue Then
-        Min = firstValue
-    Else: Min = secondValue
+        MyMinFunction = firstValue
+    Else: MyMinFunction = secondValue
     End If
 End Function
 ```
