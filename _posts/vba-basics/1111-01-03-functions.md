@@ -28,7 +28,7 @@ Public Sub GetMinOfThreeSets()
 
     ' Set 3
     Dim x3 As Integer : x3 = 7
-    Dim y3 As Integer : x3 = 7
+    Dim y3 As Integer : y3 = 7
 
     ' Compare first set of numbers
     If x1 < y1 Then
