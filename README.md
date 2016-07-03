@@ -2,114 +2,7 @@
 ExcelQuery is a small, fast library that allows for syntactically understandable cell traversal.
 
 #API
-
-##Query
-
-| Macro | Returns |
-|:---------------|:--------------:|
-|`Workbook(Workbook workbook)` | [`QueryBook`](#querybook) |
-|`Color()` | [`QueryColor`](#querybook) |
-|`Interact()` | [`QueryInteract`](#queryinteract) |
-
-## QueryBook
-
-| Macro | Returns |
-|:---------------|:--------------:|
-|`Name()` | `String` |
-|`WorkSheet(String name)` | [`QuerySheet`](#querysheet) |
-
-## QuerySheet
-
-| Macro | Returns |
-|:---------------|:--------------:|
-|`Rename(String name)` | [`QuerySheet`](#querysheet) |
-|`Name()` | `String` |
-|`Delete()` | `NULL` |
-|`Cells(String range)` | [`QueryRange`](#queryrange) |
-
-##QueryRange
-
-| Macro | Returns |
-|:---------------|:--------------:|
-|`Bold(Optional Boolean enable)` | [`QueryRange`](#queryrange) |
-|`Underline(Optional Boolean enable)` | [`QueryRange`](#queryrange)  |
-|`Background(Long color)` | [`QueryRange`](#queryrange) |
-|`Foreground(Long color)` | [`QueryRange`](#queryrange) |
-|`Contains(Text)` | [`QueryRange`](#queryrange) |
-|`ContainsExactly(Text)` | [`QueryRange`](#queryrange) |
-|`ContainsNotExactly(Text)` | [`QueryRange`](#queryrange) |
-|`LessThan(Double value)` | [`QueryRange`](#queryrange) |
-|`EqualTo(Double value)` | [`QueryRange`](#queryrange) |
-|`NotEmpty()` | [`QueryRange`](#queryrange) |
-|`Length()` | `Integer` |
-|`Eq(Integer index)` | [`QueryCell`](#querycell) |
-|`Last()` | [`QueryCell`](#querycell) |
-|`Union()` | [`QueryCell`](#querycell) |
-|`EqAll()` | `List` |
-|`Occurs(Integer integer)` | [`QueryRange`](#queryrange) |
-|`Header(Auto value, Optional Auto delimeter)` | [`QueryRange`](#queryrange)
-|`Update(Auto value)` | [`QueryRange`](#queryrange)
-
-##QueryCell
-
-| Macro | Returns |
-|:---------------|:--------------:|
-|`Update(Auto value)` | [`QueryCell`](#querycell) |
-|`Value()` | `Double` |
-|`Text()` | `String` |
-|`Append(Auto value)` | [`QueryCell`](#querycell) |
-|`Bold(Optional Boolean enable)` | [`QueryCell`](#querycell) |
-|`Underline(Optional Boolean enable)` | [`QueryCell`](#querycell)  |
-|`Background(Long color)` | [`QueryCell`](#querycell) |
-|`Foreground(Long color)` | [`QueryCell`](#querycell) |
-|`Right(Optional Integer count)` | [`QueryCell`](#querycell) |
-|`Up(Optional Integer count)` | [`QueryCell`](#querycell) |
-|`Down(Optional Integer count)` | [`QueryCell`](#querycell) |
-|`Left(Optional Integer count)` | [`QueryCell`](#querycell) |
-|`SelectRight(Integer count, Optional Boolean includeSelf)` | [`QueryRange`](#queryrange) |
-|`SelectDown(Integer count, Optional Boolean includeSelf)` | [`QueryRange`](#queryrange) |
-|`SelectUp(Integer count, Optional Boolean includeSelf)` | [`QueryRange`](#queryrange) |
-|`SelectLeft(Integer count, Optional Boolean includeSelf)` | [`QueryRange`](#queryrange) |
-|`SelectRightTo(`[`QueryCell`](#querycell)` cell, Optional Boolean includeSelf)` | [`QueryRange`](#queryrange) |
-|`SelectDownTo(`[`QueryCell`](#querycell)` cell, Optional Boolean includeSelf)` | [`QueryRange`](#queryrange) |
-|`SelectUpTo(`[`QueryCell`](#querycell)` cell, Optional Boolean includeSelf)` | [`QueryRange`](#queryrange) |
-|`SelectLeftTo(`[`QueryCell`](#querycell)` cell, Optional Boolean includeSelf)` | [`QueryRange`](#queryrange) |
-|`Column()` | `Integer` |
-|`Row()` | `Integer` |
-|`Contains(Auto text)` | `Boolean` |
-|`ContainsExactly(Auto text)` | `Boolean` |
-|`ContainsNotExactly(Auto text)` | `Boolean` |
-|`LessThan(Double value)` | `Boolean` |
-|`GreaterThan(Double value)` | `Boolean` |
-|`EqualTo(Double value)` | `Boolean` |
-|`NotEmpty()` | `Boolean`  |
-|`IsName(String name)` | `Boolean` |
-|`Name()` | `Boolean`
-
-##QueryColor
-
-| Macro | Returns |
-|:---------------|:--------------:|
-|`RED` | `Long` |
-|`BLACK` | `Long` |
-|`WHITE` | `Long` |
-|`LIGHT_GREEN` | `Long` |
-|`GREEN` | `Long` |
-|`LIGHT_BLUE` | `Long` |
-|`BLUE` | `Long`
-
-##QueryInteract
-
-| Macro | Returns |
-|:---------------|:--------------:|
-|`Inform(Optional String message, Optional String title)` | [`QueryInteract`](#queryinteract) |
-|`AskYesNo(Optional String message, Optional String title)` | [`QueryInteract`](#queryinteract) |
-|`AskForInput(Optional String message, Optional String title, Optional String default)` | [`QueryInteract`](#queryinteract) |
-|`Wait(Optional Long delay)` | [`QueryInteract`](#queryinteract) |
-|`Yes()` | `Boolean` |
-|`No()` | `Boolean` |
-|`Valid()` | `Boolean` |
-|`Value()` | `String`
+Check out the api [here](https://github.com/bluejamesbond/ExcelQuery/wiki/API)
 
 #Getting Started
 **1**. Open a blank excel workbook
@@ -143,10 +36,7 @@ ExcelQuery is a small, fast library that allows for syntactically understandable
 Sub InsertARandonName()
 
 ' Required Variables
-Dim Excel: Set Excel = New Query
-Dim Color: Set Color = New QueryColor
-
-Excel.Workbook(ThisWorkbook) _
+Q.Workbook(ThisWorkbook) _
      .Worksheet("Sheet1") _
      .Cells("A1") _
      .Eq(0) _
