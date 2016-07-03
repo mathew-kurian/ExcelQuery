@@ -2,7 +2,7 @@
 ExcelQuery is a small, fast library that allows for syntactically understandable cell traversal.
 
 #API
-Check out the api [here](https://github.com/bluejamesbond/ExcelQuery/wiki/API)
+Check out the api [here](https://github.com/bluejamesbond/ExcelQuery/wiki/Home)
 
 #Getting Started
 **1**. Open a blank excel workbook
